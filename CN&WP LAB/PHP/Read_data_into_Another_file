@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<?php
+$myfile = fopen("abc.html", "r") or die("Unable to open file!");
+echo fread($myfile,filesize("abc.html"));
+fclose($myfile);
+?>
+</body>
+</html>
+
+<html>
+<body>
+<text align="center"> AJAX = Asynchronous JavaScript and XML<br>
+CSS = Cascading Style Sheets<br>
+HTML = Hyper Text Markup Language<br>
+PHP = PHP Hypertext Preprocessor<br>
+SQL = Structured Query Language<br>
+SVG = Scalable Vector Graphics<br>
+XML = EXtensible Markup Language
+</body>
+</html>
