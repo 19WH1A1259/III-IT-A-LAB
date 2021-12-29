@@ -1,0 +1,7 @@
+<?php
+    $a1=array(1259, 1229, 1216, 1235);
+    $a2=array(1232, 1207, 1246, 1210, 1236);
+    $num=array_merge($a1,$a2);
+    array_multisort($num,SORT_DESC,SORT_NUMERIC);
+    print_r($num);
+?>
