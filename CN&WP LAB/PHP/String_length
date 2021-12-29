@@ -1,0 +1,8 @@
+<?php
+$str1 = 'Preethi';
+echo strlen($str1);
+echo "<br>";
+ 
+$str2 = 'Beautiful world';
+echo strlen($str2);
+?>
